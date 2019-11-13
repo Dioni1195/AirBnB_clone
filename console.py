@@ -181,14 +181,12 @@ class HBNBCommand(cmd.Cmd):
                 id_to_search = cmmd_split[1][:-1]
                 self.do_destroy(str(arg[0]) + ' ' + id_to_search)
             elif arg[1].find("update") != -1:
-                cmmd_split = arg[1].split(',', 1)
-                print(len(cmmd_split))
-                if len(cmmd_split) > 2:
-                    id_update = ' ' + cmmd_split[0][7:]
-                    attr_name = cmmd_split[1]
-                    attr_value = cmmd_split[2]
-                    self.do_update(arg[0] + id_update + attr_name + attr_value)
-                else:
+                cmmd_split = arg[1].split(',')
+                id_update = ' ' + cmmd_split[0][7:]
+                attr_name = cmmd_split[1]
+                attr_value = cmmd_split[2]
+                self.do_update(arg[0] + id_update + attr_name + attr_value)
+                """else:
                     id_update = ' ' + cmmd_split[0][7:]
                     dict_rep = cmmd_split[1]
                     dict_update = dict_rep.split(',')
@@ -196,7 +194,7 @@ class HBNBCommand(cmd.Cmd):
                     for pair in dict_update:
                         pair = pair.split(':')
                         print(pair)
-                        """#key = ' ' + pair[0][3:-1]
+                        #key = ' ' + pair[0][3:-1]
                         #value = ' ' + pair[1][1:-2]
                         #self.do_update(arg[0] + id_update + key + value)"""
         else:
