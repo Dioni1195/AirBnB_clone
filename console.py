@@ -196,9 +196,9 @@ class HBNBCommand(cmd.Cmd):
                     for pair in dict_update:
                         pair = pair.split(':')
                         print(pair)
-                        #key = ' ' + pair[0][3:-1]
+                        """#key = ' ' + pair[0][3:-1]
                         #value = ' ' + pair[1][1:-2]
-                        #self.do_update(arg[0] + id_update + key + value)
+                        #self.do_update(arg[0] + id_update + key + value)"""
         else:
             pass
 
