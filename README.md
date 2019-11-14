@@ -69,7 +69,12 @@ bfb1f012-ae50-493a-816b-c0e246194084
 (hbnb) show User bfb1f012-ae50-493a-816b-c0e246194084
 [User] (bfb1f012-ae50-493a-816b-c0e246194084) {'id': 'bfb1f012-ae50-493a-816b-c0e246194084', 'updated_at': datetime.datetime(2019, 11, 13, 9, 1, 11, 81029), 'name': 'Dionisio', 'created_at': datetime.datetime(2019, 11, 13, 8, 59, 26, 921714)}
 ```
+## Data diagram
+---
 
+This diagram represents how the classes are connected each other and their main attributes
+
+![PlantUML model](http://www.plantuml.com/plantuml/png/ZPBDRjim3CVlUWeTjqFUO8Ti0NRQiA4v5eL0oup3LX-6IES3RTwzifGuYNFfIN_-I1Ca_rwoG9B1EwKKlr7e8O7NFePejobwr986LCewODQ_WF5lRD7fTsKC1H9ZldtFaYKLnR33_4WqBLd9QdoqsP13quDirHzYUNxH9ZQlQ8NLwTpvfyVSxPZx1l0uuLLbB21egBrF_dTWCMUrrZRNZVai1yPqbgKwlosoJTGBnL3mu9jSasBqV1CtURw9UJYORa2MCUWJMJJDqGJgjeKu49AXnQ9ZwAO0F8OwotMt9zmHxkkW_JZpuwI21pdLwlMuw-mCOsNv73sGAtqotiTKFjvGOZ6NPHrSWjF5jj_aS2qnGPSRWtFPbu3xgrq9NOJsIswfVqNg7n-BnMtVEpxz9cfIDN5sUOvNZwoQEuVraZDQBpQ3vMHABJ6qWtUV)
 
 Authors:
 * **Dionisio Arango** - *Initial Work and Documentación* - [Dioni1195](https://github.com/Dioni1195)
